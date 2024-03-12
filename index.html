@@ -3,9 +3,28 @@
     <head>
         <title>Rock Paper Scissors</title>
         <meta charset="utf-8">
+        <script src="javascript.js" defer></script>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <script src="javascript.js"></script>
+        <h1>ROCK PAPER SCISSORS</h1>
+        <div class="choices-container">
+            <button>ROCK</button>
+            <button>PAPER</button>
+            <button>SCISSORS</button>
+        </div>
+        <div class="game-container">
+            <p>PLAYER CHOICE = <span class="playerChoiceDisplay"></span></p>
+            <p>COMPUTER CHOICE = <span class="computerChoiceDisplay"></span></p>
+        </div>
+        <div class="score-container">
+            <p>PLAYER SCORE = <span class="playerScoreDisplay">0</span></p>
+            <p>COMPUTER SCORE = <span class="computerScoreDisplay">0</span></p>
+        </div>
+        <div class="results-container">
+            <p class="gameResult"></p>
+            <p class="winnerResult"></p>
+        </div>
     </body>
 </html>
